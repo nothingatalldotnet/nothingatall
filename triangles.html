@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>triangles</title>
+		<style type="text/css">
+			* {
+				margin:0;
+				padding:0;
+			}
+			html, body {
+				width:100%;
+				height:100%;
+			}
+		</style>
+		<script type="text/javascript" src="glitch-canvas.js"></script>
+		<script type="text/javascript">
+			var canvas			= document.createElement('canvas'),
+				timeout 		= 300,
+				colour_array	= ['#ff000','#666','#ccc','#fff','#f00','#000'],
+				noise 			= false,
+				bawk			= false,
+				hash, ctx, ctx2;
+
+			function init(){
+				canvas.width 	= document.body.clientWidth;
+				canvas.height 	= document.body.clientHeight;
+				ctx 			= canvas.getContext("2d");
+				drawLines();
+			}
+
+			function getRandom(min,max){
+    			return Math.floor(Math.random()*(max-min+1)+min);
+			}
+
+			function drawLines() {
+				ctx.fillRect(0,0,canvas.width,canvas.height);
+				hashCheck();
+				setInterval("drawTimeout()", timeout );
+			}
+
+			function hashCheck() {
+				if(window.location.hash) {
+					hash = window.location.hash.substring(1);
+					if(hash == "noise"){
+						noise 	= true;
+					} else if(hash == "bawk") {
+						bawk 	= true;
+					} else {
+						noise 	= false,
+						bawk 	= false;
+					}
+				}
+			}
+
+			function drawTimeout(){
+				if(noise){
+					addNoise();
+				}
+				ctx.translate(0, canvas.height);
+				ctx.scale(1, -1);
+				ctx.beginPath();
+
+				var x = getRandom(0,canvas.height*2),
+					y = getRandom(0,canvas.width*2);
+
+    			ctx.moveTo(y,x);
+    			ctx.lineTo(getRandom(0,canvas.height),getRandom(0,canvas.width));
+    			ctx.lineTo(getRandom(0,canvas.height),getRandom(0,canvas.width));
+    			ctx.fillStyle = colour_array[Math.floor(Math.random() * colour_array.length)];
+    			ctx.fill();
+
+    			if(bawk) {
+    				addBawk();
+    			}
+
+    			document.body.style.background = 'url('+canvas.toDataURL()+')';
+			}
+
+			function addNoise() {
+				var image_data = ctx.getImageData(0, 0, canvas.width, canvas.height),
+					pixels = image_data.data;
+
+				for (var i=0, il=pixels.length; i<il; i += 4) {
+					pixels[i] = pixels[i + 1] = pixels[i + 2] = Math.round(Math.random() * 255);
+					pixels[i + 3] = 255;
+				}
+				ctx.putImageData(image_data, 0, 0);
+			}
+
+			function addBawk(){
+
+				// assuming there's a loaded image and a canvas element in the DOM.
+//				var my_image = document.getElementById('my-image');
+//				var my_canvas = document.getElementById('my-canvas');
+//				var ctx = my_canvas.getContext('2d');
+
+				// draw the image on the canvas
+//				ctx.drawImage(my_image, my_image);
+
+				var image_data = ctx.getImageData(0, 0, canvas.width, canvas.height),
+					parameters = { amount: 99, seed: 45, iterations: 70, quality: 30 };
+
+				function drawGlitchedImageData(glitch) {
+					ctx.putImageData(glitch, 0, 0);
+				}
+
+				glitch(image_data, parameters, drawGlitchedImageData);
+			}
+		</script>
+	</head>	
+	<body onload="init();">
+	</body>
+</html>

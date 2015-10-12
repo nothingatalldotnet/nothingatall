@@ -98,6 +98,7 @@
 			<br />
 			<p class="vertical">elsewhere</p>
 			<ul>
+				<li>&nbsp;<a href="https://github.com/nothingatalldotnet" title="github" itemprop="url">github</a></li>
 				<li>&nbsp;<a href="http://instagram.com/nothingatallnet/" title="instagram" itemprop="url">instagram</a></li>
 				<li>&nbsp;<a href="http://www.last.fm/user/lonely_minotaur" title="last.fm" itemprop="url">last.fm</a></li>
 				<li>&nbsp;<a href="http://uk.linkedin.com/in/nothingatalldotnet/" title="linkedin" itemprop="url">linkedin</a></li>
