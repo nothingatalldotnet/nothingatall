@@ -1,0 +1,79 @@
+body {
+	background:#000;
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size:12px;
+	color:#CCC;
+	margin: 0px;
+}
+
+#main {
+	position:relative;
+	width:500px;
+	padding-left:20px;
+	margin-top:14px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+ul {
+	list-style:none;
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+}
+
+a, a:visited {
+	color:#CCC;
+	text-decoration:none;
+	padding-left: 0px;
+	transition: 0.4s all;
+	-moz-transition: 0.4s all;
+	-webkit-transition: 0.4s all;
+}
+
+a:hover {
+	color:#333;
+	padding-left: 10px;
+}
+
+img {
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+	filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: gray;
+	-webkit-filter: grayscale(100%);
+}
+
+hr {
+	height:2px;
+	background-color:#999;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.large {
+	font-size:20px;
+	color:#333;
+	text-shadow: 0px 0px 1px #333;
+}
+
+p.vertical {
+	color:#333;
+	border:0px solid red;
+	writing-mode:tb-rl;
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform: rotate(90deg);
+	white-space:nowrap;
+	display:block;
+	bottom:0;
+	width:20px;
+	height:20px;
+	font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:normal;
+	text-shadow: 0px 0px 1px #333;
+	float:left;
+	margin-top:0px;
+	padding: 15px 0px 0px 10px;
+}

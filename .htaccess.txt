@@ -1,0 +1,73 @@
+DirectoryIndex index.php index.html site-down.php
+Options -Indexes
+
+# Prevent libperl access
+SetEnvIfNoCase User-Agent "^libwww-perl*" block_bad_bots
+Deny from env=block_bad_bots
+
+# Force non-www
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^ http://%1%{REQUEST_URI} [L,R=301]
+
+<IfModule mod_expires.c>
+	# Enable expirations.
+	ExpiresActive On
+
+	# Cache all files for 2 weeks after access (A).
+	ExpiresByType image/jpg "access plus 1 year"
+	ExpiresByType image/jpeg "access plus 1 year"
+	ExpiresByType image/gif "access plus 1 year"
+	ExpiresByType image/png "access plus 1 year"
+	ExpiresByType text/css "access plus 1 month"
+	ExpiresByType application/pdf "access plus 1 month"
+	ExpiresByType text/x-javascript "access plus 1 month"
+	ExpiresByType application/javascript "access plus 1 month"
+	ExpiresByType application/x-javascript "access plus 1 month"
+	ExpiresByType image/x-icon "access plus 1 year"
+	ExpiresDefault "access plus 1 week"
+</IfModule>
+
+<IfModule mod_headers.c>
+	# Unset headers
+	Header always unset Server
+
+    # Serve gzip compressed CSS files if they exist and the client accepts gzip.
+    RewriteCond %{HTTP:Accept-encoding} gzip
+    RewriteCond %{REQUEST_FILENAME}\.gz -s
+    RewriteRule ^(.*)\.css $1\.css\.gz [QSA]
+
+    # Serve gzip compressed JS files if they exist and the client accepts gzip.
+    RewriteCond %{HTTP:Accept-encoding} gzip
+    RewriteCond %{REQUEST_FILENAME}\.gz -s
+    RewriteRule ^(.*)\.js $1\.js\.gz [QSA]
+
+    # Serve gzip compressed JPG files if they exist and the client accepts gzip.
+    RewriteCond %{HTTP:Accept-encoding} gzip
+    RewriteCond %{REQUEST_FILENAME}\.gz -s
+    RewriteRule ^(.*)\.jpg $1\.jpg\.gz [QSA]
+
+    # Serve gzip compressed PNG files if they exist and the client accepts gzip.
+    RewriteCond %{HTTP:Accept-encoding} gzip
+    RewriteCond %{REQUEST_FILENAME}\.gz -s
+    RewriteRule ^(.*)\.png $1\.png\.gz [QSA]
+
+    # Serve gzip compressed GIF files if they exist and the client accepts gzip.
+    RewriteCond %{HTTP:Accept-encoding} gzip
+    RewriteCond %{REQUEST_FILENAME}\.gz -s
+    RewriteRule ^(.*)\.gif $1\.gif\.gz [QSA]
+
+    # Serve correct content types, and prevent mod_deflate double gzip.
+    RewriteRule \.css\.gz$ - [T=text/css,E=no-gzip:1]
+    RewriteRule \.js\.gz$ - [T=text/javascript,E=no-gzip:1]
+    RewriteRule \.jpg\.gz$ - [T=image/jpg,E=no-gzip:1]
+    RewriteRule \.png\.gz$ - [T=image/png,E=no-gzip:1]
+    RewriteRule \.gif\.gz$ - [T=image/gif,E=no-gzip:1]
+
+    <FilesMatch "(\.js\.gz|\.css\.gz)$">
+      # Serve correct encoding type.
+      Header set Content-Encoding gzip
+
+      # Force proxies to cache gzipped & non-gzipped css/js files separately.
+      Header append Vary Accept-Encoding
+    </FilesMatch>
+  </IfModule>
