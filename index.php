@@ -40,19 +40,16 @@
 				<li>&nbsp;was: developer at <a href="http://www.virtek.com/" title="Virtek">virtek</a></li>
 			</ul>
 			<br />
-			<p class="vertical">examples</p>
+			<p class="vertical">current web examples</p>
 			<ul>
 				<li>&nbsp;<a href="http://www.1418now.org.uk/dazzle" title="manchester ivf">dazzle it</a></li>
 				<li>&nbsp;<a href="https://manchesterivf.co.uk/" title="manchester ivf">manchester ivf</a></li>
 				<li>&nbsp;<a href="http://www.proreal.co.uk/" title="proreal">proreal</a></li>
-				<li>&nbsp;<a href="https://coursefinder.studygroup.com/" title="course finder">study group course finder</a></li>
+				<li>&nbsp;study group course finder - <a href="https://coursefinder.studygroup.com/" title="course finder">web</a> - <a href="https://itunes.apple.com/us/app/study-group-course-finder/id907509226?ls=1&mt=8" title="course finder ios">iOS</a> - <a href="https://play.google.com/store/apps/details?id=com.studygroup.coursefinder" title="course finder android">android</a></li>
 				<li>&nbsp;<a href="http://www.dosomethingbrilliant.co.uk/" title="do something brilliant">do something brilliant</a></li>
-				<li>&nbsp;<a href="http://www.bbc.co.uk/guides/zxkn4wx" title="bbc mortgage Calculator">bbc mortgage calculator</a></li>
+				<li>&nbsp;<a href="http://www.bbc.co.uk/guides/zxkn4wx" title="bbc mortgage calculator">bbc mortgage calculator</a></li>
 				<li>&nbsp;<a href="http://www.printers-uk.com/" title="printers uk">printers uk</a></li>
-				<li>&nbsp;<a href="http://tickets.waste.uk.com/" title="waste/radiohead tickets">waste tickets</a></li>
 				<li>&nbsp;<a href="http://bandofskullstickets.sandbag.uk.com/" title="band of skulls tickets">band of skulls tickets</a></li>
-				<li>&nbsp;<a href="http://shop.efterklang.net/" title="efterklang">efterklang</a></li>
-				<li>&nbsp;<a href="http://abbeyroadlive.sandbag.uk.com/" title="abbey road live">abbey road live</a></li>
 				<li>&nbsp;<a href="http://sundaybesttickets.sandbag.uk.com/" title="sunday best tickets">sunday best tickets</a></li>
 				<li>&nbsp;<a href="http://basementjaxxtickets.sandbag.uk.com" title="basement jaxx tickets">basement jaxx tickets</a></li>
 			</ul>
@@ -61,10 +58,12 @@
 			<ul>
 				<li>&nbsp;carter tutti void</li>
 				<li>&nbsp;pj harvey</li>
+				<li>&nbsp;w.a.s.t.e tickets</li>
 				<li>&nbsp;mr scruff</li>
 				<li>&nbsp;radiohead - the king of limbs</li>
 				<li>&nbsp;big black delta</li>
 				<li>&nbsp;laura marling</li>
+				<li>&nbsp;efterklang/an island</li>
 				<li>&nbsp;battles</li>
 				<li>&nbsp;charlie simpson</li>
 				<li>&nbsp;slowly downward / stanley donwood</li>
@@ -78,12 +77,12 @@
 				<li>&nbsp;mumford &amp; sons</li>
 				<li>&nbsp;can</li>
 				<li>&nbsp;rizzle kicks</li>
-				<li>&nbsp;the temperance movement</li>
+				<li>&nbsp;abbey road - live here now</li>
 				<li>&nbsp;blue</li>
 				<li>&nbsp;mogwai</li>
 			</ul>
 			<br />
-			<p class="vertical">skills</p>
+			<p class="vertical">skills and things</p>
 			<ul>
 				<li>&nbsp;html/css/php</li>
 				<li>&nbsp;javascript/jquery</li>
@@ -92,11 +91,12 @@
 				<li>&nbsp;objective c</li>
 				<li>&nbsp;titanium/codeignitor/drupal/wordpress/bedrock</li>
 				<li>&nbsp;git/mercurial</li>
-				<li>&nbsp;composer</li>
-				<li>&nbsp;photoshop/sublime text</li>
+				<li>&nbsp;composer/grunt/bower etc</li>
+				<li>&nbsp;photoshop/sublime text/appcelerator</li>
+				<li>&nbsp;system networking &amp; security</li>
 			</ul>
 			<br />
-			<p class="vertical">elsewhere</p>
+			<p class="vertical">elsewhere online</p>
 			<ul>
 				<li>&nbsp;<a href="https://github.com/nothingatalldotnet" title="github" itemprop="url">github</a></li>
 				<li>&nbsp;<a href="http://instagram.com/nothingatallnet/" title="instagram" itemprop="url">instagram</a></li>
@@ -114,7 +114,7 @@
 				<li>&nbsp;<a href="http://nothingatall.net/triangles.html#bawk" title="triangles bawk">triangles (bawk version)</a></li>
 			</ul>
 			<br /><br /><br /><br />
-			<p class="vertical">listening</p>
+			<p class="vertical">current listening</p>
 			<ul>
 <?php
 				class NowPlaying{
