@@ -34,13 +34,13 @@
 				<li>&nbsp;rich@nothingatall.net</li>
 			</ul>
 			<br />
-			<p class="vertical">work</p>
+<!--			<p class="vertical">work</p> -->
 			<ul>
 				<li>&nbsp;now: <span itemprop="title">developer</span> at <a href="http://www.corporationpop.co.uk/" title="Corporation Pop">corporation pop</a></li>
 				<li>&nbsp;was: developer at <a href="http://www.virtek.com/" title="Virtek">virtek</a></li>
 			</ul>
 			<br />
-			<p class="vertical">current web examples</p>
+<!--			<p class="vertical">current web examples</p> -->
 			<ul>
 				<li>&nbsp;<a href="http://www.1418now.org.uk/dazzle" title="manchester ivf">dazzle it</a></li>
 				<li>&nbsp;<a href="https://manchesterivf.co.uk/" title="manchester ivf">manchester ivf</a></li>
@@ -53,7 +53,7 @@
 				<li>&nbsp;<a href="http://sundaybesttickets.sandbag.uk.com/" title="sunday best tickets">sunday best tickets</a></li>
 				<li>&nbsp;<a href="http://basementjaxxtickets.sandbag.uk.com" title="basement jaxx tickets">basement jaxx tickets</a></li>
 			</ul>
-			<br />
+<!--			<br />
 			<p class="vertical">other / no longer online</p>
 			<ul>
 				<li>&nbsp;carter tutti void</li>
@@ -81,8 +81,9 @@
 				<li>&nbsp;blue</li>
 				<li>&nbsp;mogwai</li>
 			</ul>
+-->
 			<br />
-			<p class="vertical">skills and things</p>
+<!--			<p class="vertical">skills and things</p> -->
 			<ul>
 				<li>&nbsp;html/css/php</li>
 				<li>&nbsp;javascript/jquery</li>
@@ -96,7 +97,7 @@
 				<li>&nbsp;system networking &amp; security</li>
 			</ul>
 			<br />
-			<p class="vertical">elsewhere online</p>
+<!--			<p class="vertical">elsewhere online</p> -->
 			<ul>
 				<li>&nbsp;<a href="https://github.com/nothingatalldotnet" title="github" itemprop="url">github</a></li>
 				<li>&nbsp;<a href="http://instagram.com/nothingatallnet/" title="instagram" itemprop="url">instagram</a></li>
@@ -107,16 +108,17 @@
 				<li>&nbsp;<a href="http://www.discogs.com/user/nothingatalldotnet/collection" title="discogs" itemprop="url">discogos</a></li>
 			</ul>
 			<br />
-			<p class="vertical">playground</p>
+<!--			<p class="vertical">playground</p> -->
 			<ul>
 				<li>&nbsp;<a href="http://nothingatall.net/triangles.html" title="triangles bawk">triangles</a></li>
 				<li>&nbsp;<a href="http://nothingatall.net/triangles.html#noise" title="triangles bawk">triangles (noise version)</a></li>
 				<li>&nbsp;<a href="http://nothingatall.net/triangles.html#bawk" title="triangles bawk">triangles (bawk version)</a></li>
 			</ul>
 			<br /><br /><br /><br />
-			<p class="vertical">current listening</p>
-			<ul>
+<!--			<p class="vertical">current listening</p> -->
+			<!--<ul>
 <?php
+/*
 				class NowPlaying{
 					private $url;
 					private $noTrackPlayingMessage;
@@ -156,8 +158,9 @@
 				$now_playing = new NowPlaying('lonely_minotaur', 'e24be57fe910db1e31b4ce4bb97b4f7f');
 				$now_playing->setNoTrackPlayingMessage('not listening to anything right now');
 				echo "<li>&nbsp;Currently listening to: ".$now_playing->getNowPlaying()."</li>\n";
+*/
 ?>
-			</ul>
+			</ul> -->
 			<br /><br />
 		</div>
 	</body>
