@@ -34,70 +34,26 @@
 				<li>&nbsp;rich@nothingatall.net</li>
 			</ul>
 			<br />
-<!--			<p class="vertical">work</p> -->
 			<ul>
-				<li>&nbsp;now: <span itemprop="title">developer</span> at <a href="http://www.corporationpop.co.uk/" title="Corporation Pop">corporation pop</a></li>
-				<li>&nbsp;was: developer at <a href="http://www.virtek.com/" title="Virtek">virtek</a></li>
+				<li>&nbsp;<span itemprop="title">developer</span> at <a href="http://www.corporationpop.co.uk/" title="Corporation Pop">corporation pop</a></li>
 			</ul>
 			<br />
-<!--			<p class="vertical">current web examples</p> -->
 			<ul>
 				<li>&nbsp;<a href="http://www.1418now.org.uk/dazzle" title="manchester ivf">dazzle it</a></li>
 				<li>&nbsp;<a href="https://manchesterivf.co.uk/" title="manchester ivf">manchester ivf</a></li>
 				<li>&nbsp;<a href="http://www.proreal.co.uk/" title="proreal">proreal</a></li>
 				<li>&nbsp;study group course finder - <a href="https://coursefinder.studygroup.com/" title="course finder">web</a> - <a href="https://itunes.apple.com/us/app/study-group-course-finder/id907509226?ls=1&mt=8" title="course finder ios">iOS</a> - <a href="https://play.google.com/store/apps/details?id=com.studygroup.coursefinder" title="course finder android">android</a></li>
-				<li>&nbsp;<a href="http://www.dosomethingbrilliant.co.uk/" title="do something brilliant">do something brilliant</a></li>
 				<li>&nbsp;<a href="http://www.bbc.co.uk/guides/zxkn4wx" title="bbc mortgage calculator">bbc mortgage calculator</a></li>
-				<li>&nbsp;<a href="http://www.printers-uk.com/" title="printers uk">printers uk</a></li>
-				<li>&nbsp;<a href="http://bandofskullstickets.sandbag.uk.com/" title="band of skulls tickets">band of skulls tickets</a></li>
-				<li>&nbsp;<a href="http://sundaybesttickets.sandbag.uk.com/" title="sunday best tickets">sunday best tickets</a></li>
-				<li>&nbsp;<a href="http://basementjaxxtickets.sandbag.uk.com" title="basement jaxx tickets">basement jaxx tickets</a></li>
 			</ul>
-<!--			<br />
-			<p class="vertical">other / no longer online</p>
-			<ul>
-				<li>&nbsp;carter tutti void</li>
-				<li>&nbsp;pj harvey</li>
-				<li>&nbsp;w.a.s.t.e tickets</li>
-				<li>&nbsp;mr scruff</li>
-				<li>&nbsp;radiohead - the king of limbs</li>
-				<li>&nbsp;big black delta</li>
-				<li>&nbsp;laura marling</li>
-				<li>&nbsp;efterklang/an island</li>
-				<li>&nbsp;battles</li>
-				<li>&nbsp;charlie simpson</li>
-				<li>&nbsp;slowly downward / stanley donwood</li>
-				<li>&nbsp;nick cave tickets</li>
-				<li>&nbsp;rock action records</li>
-				<li>&nbsp;thom yorke tickets</li>
-				<li>&nbsp;ethan johns</li>
-				<li>&nbsp;queens of the stone age</li>
-				<li>&nbsp;the xx</li>
-				<li>&nbsp;rabid records</li>
-				<li>&nbsp;mumford &amp; sons</li>
-				<li>&nbsp;can</li>
-				<li>&nbsp;rizzle kicks</li>
-				<li>&nbsp;abbey road - live here now</li>
-				<li>&nbsp;blue</li>
-				<li>&nbsp;mogwai</li>
-			</ul>
--->
 			<br />
-<!--			<p class="vertical">skills and things</p> -->
 			<ul>
-				<li>&nbsp;html/css/php</li>
-				<li>&nbsp;javascript/jquery</li>
-				<li>&nbsp;postgresql/mysql/sqlite</li>
-				<li>&nbsp;xml/json/soap/rest</li>
-				<li>&nbsp;objective c</li>
-				<li>&nbsp;titanium/codeignitor/drupal/wordpress/bedrock</li>
+				<li>&nbsp;html/css/php/javascript/jquery/postgresql/mysql/sqlite</li>
+				<li>&nbsp;titanium/codeignitor/laravel/drupal/wordpress</li>
 				<li>&nbsp;git/mercurial</li>
-				<li>&nbsp;composer/grunt/bower etc</li>
-				<li>&nbsp;photoshop/sublime text/appcelerator</li>
+				<li>&nbsp;composer/grunt/bower</li>
 				<li>&nbsp;system networking &amp; security</li>
 			</ul>
 			<br />
-<!--			<p class="vertical">elsewhere online</p> -->
 			<ul>
 				<li>&nbsp;<a href="https://github.com/nothingatalldotnet" title="github" itemprop="url">github</a></li>
 				<li>&nbsp;<a href="http://instagram.com/nothingatallnet/" title="instagram" itemprop="url">instagram</a></li>
@@ -108,60 +64,19 @@
 				<li>&nbsp;<a href="http://www.discogs.com/user/nothingatalldotnet/collection" title="discogs" itemprop="url">discogos</a></li>
 			</ul>
 			<br />
-<!--			<p class="vertical">playground</p> -->
 			<ul>
 				<li>&nbsp;<a href="http://nothingatall.net/triangles.html" title="triangles bawk">triangles</a></li>
 				<li>&nbsp;<a href="http://nothingatall.net/triangles.html#noise" title="triangles bawk">triangles (noise version)</a></li>
 				<li>&nbsp;<a href="http://nothingatall.net/triangles.html#bawk" title="triangles bawk">triangles (bawk version)</a></li>
 			</ul>
-			<br /><br /><br /><br />
-<!--			<p class="vertical">current listening</p> -->
-			<!--<ul>
-<?php
-/*
-				class NowPlaying{
-					private $url;
-					private $noTrackPlayingMessage;
-
-					function __construct($user, $api_key){
-						$this->url  = 'http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&limit=1';
-						$this->url .= '&user=' . $user . '&api_key=' . $api_key;
-						$this->noTrackPlayingMessage = 'nothing is playing right now!';
-					}
-
-					public function getNowPlaying(){
-						$xml = simplexml_load_file($this->url);
-						$track = $xml->recenttracks->track;
-						$nowplaying = $track->attributes()->nowplaying;
-
-						if($nowplaying){
-							$artist = $track->artist;
-							$songname = $track->name;
-
-							if($track->image->attributes()->size == "medium"){
-								$image = $track->image;
-								return $artist . " - " . $songname . "<br /><img src=".$image;
-							} else {
-								return $artist . " - " . $songname;
-							}
-						}
-						else{
-							return $this->noTrackPlayingMessage;
-						}
-					}
-
-					public function setNoTrackPlayingMessage($messageIn){
-						$this->noTrackPlayingMessage = $messageIn;
-					}
-				}
-
-				$now_playing = new NowPlaying('lonely_minotaur', 'e24be57fe910db1e31b4ce4bb97b4f7f');
-				$now_playing->setNoTrackPlayingMessage('not listening to anything right now');
-				echo "<li>&nbsp;Currently listening to: ".$now_playing->getNowPlaying()."</li>\n";
-*/
-?>
-			</ul> -->
-			<br /><br />
 		</div>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-2616785-1', 'auto');
+			ga('send', 'pageview');
+		</script>
 	</body>
 </html>
