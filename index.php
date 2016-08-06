@@ -28,7 +28,7 @@
 	<body>
 		<div id="main" itemscope itemtype="http://data-vocabulary.org/Person">
 			<header>
-				<span class="large">nothingatall dot net / <span itemprop="name">richard jones</span></span><br /><br />
+				<span class="large">nothingatall dot net / <span itemprop="name">rich jones</span></span><br /><br />
 			</header>
 			<ul>
 				<li>&nbsp;rich@nothingatall.net</li>
@@ -47,16 +47,17 @@
 			</ul>
 			<br />
 			<ul>
-				<li>&nbsp;html/css/php/javascript/jquery/postgresql/mysql/sqlite</li>
-				<li>&nbsp;titanium/codeignitor/laravel/drupal/wordpress</li>
+				<li>&nbsp;html/css/php/javascript/jquery/postgresql/mysql/sqlite/perl</li>
+				<li>&nbsp;titanium/codeignitor/laravel/drupal/wordpress/cordova/aws</li>
 				<li>&nbsp;git/mercurial</li>
 				<li>&nbsp;composer/grunt/bower</li>
-				<li>&nbsp;system networking &amp; security</li>
+				<li>&nbsp;system networking &amp; security/cyber essentials</li>
 			</ul>
 			<br />
 			<ul>
 				<li>&nbsp;<a href="https://github.com/nothingatalldotnet" title="github" itemprop="url">github</a></li>
 				<li>&nbsp;<a href="http://instagram.com/nothingatallnet/" title="instagram" itemprop="url">instagram</a></li>
+				<li>&nbsp;<a href="https://keybase.io/nothingatall" title="keybase" itemprop="url">keybase</a></li>
 				<li>&nbsp;<a href="http://www.last.fm/user/lonely_minotaur" title="last.fm" itemprop="url">last.fm</a></li>
 				<li>&nbsp;<a href="http://uk.linkedin.com/in/nothingatalldotnet/" title="linkedin" itemprop="url">linkedin</a></li>
 				<li>&nbsp;<a href="https://twitter.com/nothingatallnet" title="twitter" itemprop="url">twitter</a></li>
