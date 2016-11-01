@@ -3,25 +3,20 @@
 	<head>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
     	<meta http-equiv="content-type" content="text/html; charset=utf-8">
-		<link rel="canonical" href="http://nothingatall.net/" />
+		<link rel="canonical" href="https://nothingatall.net/" />
 		<meta name="robots" content="noindex,follow"/>
 		<meta name="googlebot" content="noarchive" />
 		<meta name="title" content="nothingatall dot net" />
 		<meta name="description" content="manchester/saddleworth based developer with a ridiculous taste in music and cats" />
 		<meta property="og:title" content="nothingatall dot net" />
-		<meta property="og:url" content="http://www.nothingatall.net/" />
+		<meta property="og:url" content="https://www.nothingatall.net/" />
 		<meta property="og:site_name" content="nothingatall" />
 		<meta property="og:description" content="nothingatall dot net..." />
 		<meta property="twitter:card" content="summary" />
 		<meta property="twitter:site" content="@nothingatallnet" />
-		<meta property="twitter:url" content="http://www.nothingatall.net/" />
+		<meta property="twitter:url" content="https://www.nothingatall.net/" />
 		<meta property="twitter:creator" content="@nothingatallnet" />
 		<meta property="twitter:creator:id" content="18433843" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="styles.css" />
-		<!--[if lt IE 9]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 		<title>nothingatall dot net</title>
 	</head>
@@ -39,6 +34,8 @@
 			</ul>
 			<br />
 			<ul>
+				<li>&nbsp;chalk story - <a href="https://itunes.apple.com/app/id1130966540" title="chalk story ios">iOS</a> - <a href="https://play.google.com/store/apps/details?id=com.chalkstory.app" title="chalk story android">android</a></li>
+				<li>&nbsp;<a href="https://cyberchallengeventures.com/" title="cyber challenge ventures ltd">cyber challenge ventures ltd</a></li>
 				<li>&nbsp;<a href="http://www.1418now.org.uk/dazzle" title="manchester ivf">dazzle it</a></li>
 				<li>&nbsp;<a href="https://manchesterivf.co.uk/" title="manchester ivf">manchester ivf</a></li>
 				<li>&nbsp;<a href="http://www.proreal.co.uk/" title="proreal">proreal</a></li>
@@ -49,9 +46,7 @@
 			<ul>
 				<li>&nbsp;html/css/php/javascript/jquery/postgresql/mysql/sqlite</li>
 				<li>&nbsp;titanium/codeignitor/laravel/drupal/wordpress</li>
-				<li>&nbsp;git/mercurial</li>
-				<li>&nbsp;composer/grunt/bower</li>
-				<li>&nbsp;system networking &amp; security</li>
+				<li>&nbsp;git/mercurial/servers/networking/security</li>
 			</ul>
 			<br />
 			<ul>
@@ -65,11 +60,16 @@
 			</ul>
 			<br />
 			<ul>
-				<li>&nbsp;<a href="http://nothingatall.net/triangles.html" title="triangles bawk">triangles</a></li>
-				<li>&nbsp;<a href="http://nothingatall.net/triangles.html#noise" title="triangles bawk">triangles (noise version)</a></li>
-				<li>&nbsp;<a href="http://nothingatall.net/triangles.html#bawk" title="triangles bawk">triangles (bawk version)</a></li>
+				<li>&nbsp;<a href="https://nothingatall.net/triangles.html" title="triangles bawk">triangles</a></li>
+				<li>&nbsp;<a href="https://nothingatall.net/triangles.html#noise" title="triangles bawk">triangles (noise version)</a></li>
+				<li>&nbsp;<a href="https://nothingatall.net/triangles.html#bawk" title="triangles bawk">triangles (bawk version)</a></li>
 			</ul>
 		</div>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
