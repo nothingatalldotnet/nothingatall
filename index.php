@@ -38,6 +38,7 @@
 				<li>&nbsp;<a href="https://cyberchallengeventures.com/" title="cyber challenge ventures ltd">cyber challenge ventures ltd</a></li>
 				<li>&nbsp;<a href="http://www.1418now.org.uk/dazzle" title="manchester ivf">dazzle it</a></li>
 				<li>&nbsp;<a href="https://manchesterivf.co.uk/" title="manchester ivf">manchester ivf</a></li>
+				<li>&nbsp;<a href="https://www.ncuk.ac.uk/" title="ncuk">ncuk</a></li>
 				<li>&nbsp;<a href="http://www.proreal.co.uk/" title="proreal">proreal</a></li>
 				<li>&nbsp;study group course finder - <a href="https://coursefinder.studygroup.com/" title="course finder">web</a> - <a href="https://itunes.apple.com/us/app/study-group-course-finder/id907509226?ls=1&mt=8" title="course finder ios">iOS</a> - <a href="https://play.google.com/store/apps/details?id=com.studygroup.coursefinder" title="course finder android">android</a></li>
 				<li>&nbsp;<a href="http://www.bbc.co.uk/guides/zxkn4wx" title="bbc mortgage calculator">bbc mortgage calculator</a></li>
@@ -45,8 +46,8 @@
 			<br />
 			<ul>
 				<li>&nbsp;html/css/php/javascript/jquery/postgresql/mysql/sqlite</li>
-				<li>&nbsp;titanium/codeignitor/laravel/drupal/wordpress</li>
-				<li>&nbsp;git/mercurial/servers/networking/security</li>
+				<li>&nbsp;titanium/codeignitor/laravel/drupal/wordpress/cordova</li>
+				<li>&nbsp;nginx/apache/git/mercurial/servers/networking/security</li>
 			</ul>
 			<br />
 			<ul>
