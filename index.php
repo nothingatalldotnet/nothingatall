@@ -39,6 +39,8 @@
 			</ul>
 			<br />
 			<ul>
+				<li>&nbsp;<a href="http://www.spoonfire.co.uk" title="spoonfire">spoonfire</a></li>
+				<li>&nbsp;<a href="https://www.ncuk.ac.uk" title="NCUK">NCUK</a></li>
 				<li>&nbsp;<a href="http://www.1418now.org.uk/dazzle" title="manchester ivf">dazzle it</a></li>
 				<li>&nbsp;<a href="https://manchesterivf.co.uk/" title="manchester ivf">manchester ivf</a></li>
 				<li>&nbsp;<a href="http://www.proreal.co.uk/" title="proreal">proreal</a></li>
@@ -49,9 +51,10 @@
 			<ul>
 				<li>&nbsp;html/css/php/javascript/jquery/postgresql/mysql/sqlite/perl</li>
 				<li>&nbsp;titanium/codeignitor/laravel/drupal/wordpress/cordova/aws</li>
-				<li>&nbsp;git/mercurial</li>
-				<li>&nbsp;composer/grunt/bower</li>
-				<li>&nbsp;system networking &amp; security/cyber essentials</li>
+				<li>&nbsp;git/mercurial/composer/grunt/bower</li>
+				<li>&nbsp;nginx/apache</li>
+				<li>&nbsp;osx/windows/centos/ubuntu/kali</li>
+				<li>&nbsp;system networking &amp; security &amp; monitoring/cyber essentials</li>
 			</ul>
 			<br />
 			<ul>
