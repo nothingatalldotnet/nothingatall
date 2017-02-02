@@ -34,7 +34,6 @@
 			</ul>
 			<br />
 			<ul>
-<<<<<<< HEAD
 				<li>&nbsp;<a href="http://www.spoonfire.co.uk" title="spoonfire">spoonfire</a></li>
 				<li>&nbsp;<a href="https://www.ncuk.ac.uk" title="NCUK">NCUK</a></li>
 				<li>&nbsp;chalk story - <a href="https://itunes.apple.com/app/id1130966540" title="chalk story ios">iOS</a> - <a href="https://play.google.com/store/apps/details?id=com.chalkstory.app" title="chalk story android">android</a></li>
@@ -48,18 +47,12 @@
 			</ul>
 			<br />
 			<ul>
-<<<<<<< HEAD
 				<li>&nbsp;html/css/php/javascript/jquery/postgresql/mysql/sqlite/perl</li>
 				<li>&nbsp;titanium/codeignitor/laravel/drupal/wordpress/cordova/aws</li>
 				<li>&nbsp;git/mercurial/composer/grunt/bower</li>
 				<li>&nbsp;nginx/apache</li>
 				<li>&nbsp;osx/windows/centos/ubuntu/kali</li>
 				<li>&nbsp;system networking &amp; security &amp; monitoring/cyber essentials</li>
-=======
-				<li>&nbsp;html/css/php/javascript/jquery/postgresql/mysql/sqlite</li>
-				<li>&nbsp;titanium/codeignitor/laravel/drupal/wordpress/cordova</li>
-				<li>&nbsp;nginx/apache/git/mercurial/servers/networking/security</li>
->>>>>>> bf87e5f6983dce8ffa89e8a52353aedbb7372f8e
 			</ul>
 			<br />
 			<ul>
